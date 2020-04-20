@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-cof {
+    width: 70px;
+    height: 70px;
+}
+
+#cof {
+    width: 400px;
+    height: 300px;
+    border-radius: 70px;
+    transform: rotate(20deg);
+}
+
+.logo {
+    display: flex;
+    margin-left: 71px;
+    margin-top: 23px;
+    
+}
+
+#logo-text{
+    margin: 10px;
+    font-family: 'Rakkas', cursive;
+    font-size: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 95%;
+}
+
+.nav {
+    display: flex;
+    margin: 25px;
+    margin-right: 71px;    
+}
+
+.nav li {
+    padding: 15px;
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-family: 'Rakkas', cursive;
+    color: black;   
+}
+
+.current {
+    width: 85px;
+    height: 50px;
+    padding: 10px;
+    background-color: #DCF9D7;
+}
+
+section {
+    margin: auto;
+    width: 95%;    
+    margin: 90px;   
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.slogan h2{
+    margin-top: 50px;
+    margin-right: 100px;
+    font-family: 'Ribeye', cursive;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+#coffee {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+#second-line {
+    margin-top: 20px;
+}
+
+#starbucks {
+    font-size: 55px;
+    color: #56924C;
+    margin-left: 20px;
+}
+
+button {
+    margin: 30px;
+    padding: 15px 25px;
+    border-radius: 70px;
+    border-style: none;
+    background-color: #6CB65F;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 120px;
+    outline: none;
+    cursor: pointer;
+}
+
+.footer {
+    justify-self: flex-end;
+    bottom: 0;
+    margin-bottom: 0;
+    background: #6CB65F;
+    text-align: center;
+    color: white;
+}
